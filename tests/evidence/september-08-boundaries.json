@@ -1,0 +1,18 @@
+{
+  "date": "2026-09-08",
+  "boards": {"sender": "DOIT-compatible ESP32", "receiver": "ATmega328P Uno-compatible with HC-05"},
+  "baud": {"sender_monitor": 115200, "receiver_monitor": 9600, "hc05_uart": 9600},
+  "source_sha256": {
+    "esp32_master": "5AC6499618318AE69E9F3FC47D7EA22EEC7ECF812CE26B21615DFC692D57B267",
+    "arduino_slave": "0F03F0A9635593201B204E367E519B60515138DD724429D49571E9AD5FF9313E"
+  },
+  "padding": {
+    "plaintext_bytes": [15, 16, 17],
+    "ciphertext_bytes": [16, 32, 32],
+    "exact_plaintext_recovered": [true, true, true]
+  },
+  "sender_limit": {"accepted_bytes": 255, "accepted_exactly": true, "refused_bytes": 256, "refused_before_transmission": true},
+  "repeated_delivery": {"message_count": 3, "same_connection": true, "in_order": true, "exact_plaintext": true},
+  "recovery": {"esp32_restart": true, "receiver_power_cycle": true, "exact_delivery_after_each": true},
+  "boundary": "No authentication, replay, tamper, range, endurance, or statistical timing claim."
+}

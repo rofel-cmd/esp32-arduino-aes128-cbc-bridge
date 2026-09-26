@@ -1,0 +1,13 @@
+Creative Commons Attribution-ShareAlike 4.0 International
+
+This repository redistributes the third-party schematic assets identified in
+THIRD_PARTY_NOTICES.md under CC BY-SA 4.0. The authoritative license deed and
+legal code are available at:
+
+https://creativecommons.org/licenses/by-sa/4.0/
+https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+You are free to share and adapt the material, provided you give appropriate
+credit, provide a link to the license, indicate changes, and distribute
+adaptations under the same license. This summary is not a substitute for the
+legal code.

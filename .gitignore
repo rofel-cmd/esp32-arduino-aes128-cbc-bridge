@@ -1,0 +1,20 @@
+# Local configuration and build products
+firmware/libraries/CapstoneConfig/src/LocalConfig.h
+.pio/
+build/
+*.bin
+*.elf
+*.hex
+*.map
+
+# Editor and tool state
+*.kicad_prl
+*.kicad_sch-bak
+~*.lck
+__pycache__/
+*.pyc
+.venv/
+emulator_latency.png
+emulator_report.md
+protocol_report.md
+security_report.md

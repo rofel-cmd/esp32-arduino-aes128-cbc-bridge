@@ -1,0 +1,6 @@
+(sym_lib_table
+ (lib (name "Capstone_Resistor")(type "KiCad")(uri "${KIPRJMOD}/assets/Precision_Resistor.kicad_sym")(options "")(descr "1k 1% five-band divider resistor"))
+ (lib (name "Capstone_Arduino")(type "KiCad")(uri "${KIPRJMOD}/assets/Arduino_UNO.kicad_sym")(options "")(descr "Uno board interfaces"))
+ (lib (name "Capstone_ESP32")(type "KiCad")(uri "${KIPRJMOD}/assets/ESP32_DOIT_30pin.kicad_sym")(options "")(descr "DOIT 30-pin candidate"))
+ (lib (name "Capstone_HC05")(type "KiCad")(uri "${KIPRJMOD}/assets/HC05_Carrier.kicad_sym")(options "")(descr "Six-pin HC-05 carrier"))
+)

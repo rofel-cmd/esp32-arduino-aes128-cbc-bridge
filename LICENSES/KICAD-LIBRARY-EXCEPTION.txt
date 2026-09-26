@@ -1,0 +1,10 @@
+KiCad Libraries License Exception
+
+The KiCad project distributes its official library material under CC BY-SA 4.0
+with a specific exception permitting electronic designs to use library data
+without requiring the resulting design to use the same license. The exception
+and authoritative terms are published at:
+
+https://www.kicad.org/libraries/license/
+
+This repository retains the upstream license on the copied library assets.

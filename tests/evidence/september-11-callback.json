@@ -1,0 +1,18 @@
+{
+  "date": "2026-09-11",
+  "initial_attempt": {
+    "command_recovered_by_receiver": true,
+    "state_changed": true,
+    "response_transmitted": true,
+    "sender_classification": "malformed_response",
+    "timeout": true,
+    "timeout_ms": 3000,
+    "cause": "unverified because rejected bytes were not printed"
+  },
+  "later_matches": [
+    {"verb": "ACTIVATE", "state": "ACTIVE", "rtt_ms": 145},
+    {"verb": "DEACTIVATE", "state": "INACTIVE", "rtt_ms": 142}
+  ],
+  "host_test_counts": {"receiver_safety": 14, "control_callback": 55},
+  "boundary": "Two clean-state matches followed one retained malformed-response timeout; this is not an endurance result."
+}

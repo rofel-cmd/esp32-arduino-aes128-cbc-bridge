@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-14",
+  "checkout_commit": "56bf7b1da0739a2f29eea01998ddbc7217e2f7de",
+  "boards": {"sender": "DOIT-compatible ESP32", "receiver": "ATmega328P Uno-compatible with HC-05"},
+  "baud": {"sender_monitor": 115200, "receiver_monitor": 9600},
+  "commands": [
+    {"id":"FE3F76E4","verb":"ACTIVATE","state":"ACTIVE","rtt_ms":139,"encryption_us_per_byte":3.09,"decryption_us_per_byte":74.25},
+    {"id":"FE3F76E5","verb":"DEACTIVATE","state":"INACTIVE","rtt_ms":142,"encryption_us_per_byte":0.44,"decryption_us_per_byte":74.37},
+    {"id":"FE3F76E6","verb":"ACTIVATE","state":"ACTIVE","rtt_ms":130,"encryption_us_per_byte":0.47,"decryption_us_per_byte":74.37},
+    {"id":"FE3F76E7","verb":"DEACTIVATE","state":"INACTIVE","rtt_ms":138,"encryption_us_per_byte":0.44,"decryption_us_per_byte":74.25},
+    {"id":"FE3F76E8","verb":"ACTIVATE","state":"ACTIVE","rtt_ms":168,"encryption_us_per_byte":0.47,"decryption_us_per_byte":74.25},
+    {"id":"FE3F76E9","verb":"DEACTIVATE","state":"INACTIVE","rtt_ms":142,"encryption_us_per_byte":0.47,"decryption_us_per_byte":74.25}
+  ],
+  "failure_counts": {"malformed_response":0,"unmatched_response":0,"timeout":0,"disconnect":0,"receiver_discard":0,"command_error":0},
+  "final_state": "INACTIVE",
+  "loaded_firmware_boundary": "Current checkout hashes do not independently establish flash contents."
+}
